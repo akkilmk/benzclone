@@ -1,0 +1,428 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    margin: 0;
+    font-family:  MBCorpo Text,DaimlerCS-Regular,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 0px;
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    height: 80px;
+    padding: 15px;
+    flex-direction: row;
+}
+.logo{
+    float: left;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.para{
+    color: chartreuse;
+}
+.main_heading{
+    color: blanchedalmond;
+    padding-left: 100px;
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-right: 100px;
+    font-family: "Raleway";
+    font-size: 20px;
+}
+.second_heading{
+    color: blanchedalmond;
+    float: left;
+    margin-left: 160px;
+    display: flex;
+}
+
+.second_heading h3 {
+    margin: 10px;
+    padding-top: 40px;
+}
+.logo2{
+    color: white;
+    padding-top: 50px;
+    padding-left: 20px;
+
+}
+.second_section{
+    width: 100%;
+    height: 80vh;
+    background-image: url("mercedes-benz-the-all-electric-eqe-2021-v295-3400x1440.jpeg");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.search{
+    background-color:#141414 ;
+    flex-direction: row;
+    justify-content: center; 
+    display: flex;
+    height: 80px;
+}
+.search_box{
+    
+    margin-left: 30px;
+    width:80%;
+    height: 15px;
+    margin-top: 24px;
+    font-size: 20px;
+    padding: 10px; 
+    outline: 0;
+    border: 0;
+    
+   }
+   .search_lens{
+       display: flex;
+       background-color:white;
+      margin-top: 24px;
+      width: 45px;
+       outline: none;
+       border: none;
+       height: 19px;
+       padding-top: 15px;
+   }
+   .second_section h1{
+       font-size: 34px;
+       font-family: "Source Serif Pro";
+       color: white;
+       margin-left: 90px;
+       margin-top: 80px;
+   }
+   .second_section button{
+       background-color: black;
+       color: white;
+       margin-left: 90px;
+       height: 40px;
+       width: 200px;
+       padding: 10px;
+       margin-top: 20px;
+   }
+   .second_section p{
+       color: white;
+       margin-left: 90px;
+       margin-bottom: 40px;
+   }
+   .third_section{
+       color: white;
+       background-color: black;
+       text-align: center;
+       margin-top: 90px;
+       background-size: cover;
+       font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+   }
+   .third_section button{
+       background-color: #00adef;
+       width: 500px;
+       height: 45px;
+       padding: 10px;
+       color: white;
+       font-size: 15px;
+       margin: 20px;
+   }
+   .image_container{
+       display: flex;
+       justify-content: center;
+
+   }
+.image_container_first{
+    height: 160px;
+    width: 300px;
+    margin: 10px;
+
+}
+
+.forth_section_firstpart_first_image{
+    background-image: url("Studio-Odeonsplatz-Hidden-Heroes-Dirk-Bonn-Lithium-Installation-2560x1440.jpeg");
+    height:80vh;
+    width: 65.6vw;
+    background-size: cover;
+    float: left;
+}
+.forth_section_firstpart_first_image_content{
+    position:absolute;
+    width: 60%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.01;
+    margin-top: 440px;
+    display: block; 
+    cursor: pointer;
+}
+.forth_section_firstpart_first_image_content:hover{
+    width: 66.6%;
+    height: 150px;
+    display:block ;
+    opacity: 0.5;
+    transition: 0.6s ;
+    transform-style: flat
+}
+.forth_section_firstpart_first_image_content h1{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+}
+.forth_section_firstpart_first_image_content p{
+    color: white;
+    
+    font-weight: lighter;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+}
+ .forth_section_firstpart_second_image{
+    background-image: url("Studio-Odeonsplatz-New-Awakening-Cozy-Corner-2560x1440.jpeg");
+    height: 40vh;
+    width: 33vw;
+    float: right;
+    margin-bottom: 1px;
+    background-size: cover;
+} 
+.forth_section_firstpart_third_image{
+    background-image: url("Studio-Odeonsplatz-The-Design-Edit-EQS-450-2560x1440.jpeg");
+    height: 39.8vh;
+    width: 33vw;
+    margin-top: 1px;
+    background-size: cover;
+    float: right;
+    object-fit: cover;
+}
+.forth_section_secondpart_first_image{
+    background-image: url("01-mercedes-benz-classic-center-expertise-2560x1440.jpeg");
+    height: 40vh;
+    width: 31vw;
+    margin-top: 1.5px;
+    margin-right: 1px;
+    float: left;
+    background-size: cover;
+    object-fit: cover;
+}
+.forth_section_secondpart_second_image{
+    background-image: url("00-mercedes-eq-and-sk-gaming-launch-project-avarosa-2560x1440 copy.jpeg");
+    height: 40vh;
+    width: 34.5vw;
+    margin-top: 1.5px;
+    float: left;
+    background-size: cover;
+    object-fit: cover;
+}
+.forth_section_secondpart_third_image{
+    background-image: url("roger.jpeg");
+    height: 40vh;
+    width: 33vw;
+    margin-top: 2px;
+    float:right;
+    background-size: cover;
+    object-fit: cover;
+}
+
+                                 /* first section image completed */
+
+
+.forth_section_thirdpart_first_image{
+    background-image: url("01-mercedes-benz-museum-rudolf-caracciola-2560x1440 copy.jpeg");
+    height: 40vh;
+    width: 31vw;
+    margin-top: 1.5px;
+    margin-right: 1px;
+    float: left;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.forth_section_thirdpart_second_image{
+    background-image: url("01-mercedes-benz-museum-special-exhibition-sl-2560xx1440.jpeg");
+    height: 40vh;
+    width: 34.5vw;
+    margin-top: 1.5px;
+    float: left;
+    background-size: cover;
+    object-fit: cover;
+}
+.forth_section_thirdpart_third_image{
+    background-image: url("00-stylish-and-safe-on-the-road-2560x1440.jpeg");
+    height: 40vh;
+    width: 33vw;
+    margin-top: 2px;
+    float:right;
+    background-size: cover;
+    object-fit: cover;
+}
+/* second section completed */
+
+.fifth_section_images{
+    margin-bottom: 50px;
+}
+.fifth_section_firstpart_first_image{
+    background-image: url("https://www.mercedes-benz.com/en/vehicles/passenger-cars/g-class/concept-eqg/_jcr_content/image/MQ6-8-image-20210903171220/mercedes-eq-concept-eqg-teaser-2560x1440-09-2021.jpeg");
+    height:80vh;
+    width: 65.6vw;
+    background-size: cover;
+    float: left;
+    
+ 
+}
+ .fifth_section_firstpart_second_image{
+    background-image: url("league-of-legend-midseason-invitational-cup-standing-in-front-of-a-mercedes-benz-logo.jpeg");
+    height: 40vh;
+    width: 33vw;
+    float: right;
+    margin-bottom: 1px;
+    background-size: cover;
+} 
+.fifth_section_firstpart_third_image{
+    background-image: url("https://www.mercedes-benz.com/en/vehicles/passenger-cars/eqe/_jcr_content/image/MQ6-8-image-20210904154811/mercedes-benz-eqe-v295-teaser-3400x1912-08-2021.jpeg");
+    height: 39.8vh;
+    width: 33vw;
+    margin-top: 1px;
+    background-size: cover;
+    float: right;
+    object-fit: cover;
+}
+.fifth_section_secondpart_first_image{
+    background-image: url("https://www.mercedes-benz.com/en/vehicles/passenger-cars/mercedes-maybach/premiere-of-the-concept-mercedes-maybach-eqs/_jcr_content/image/MQ6-8-image-20210905165543/00-concept-mercedes-maybach-eqs-2560x1440.jpeg");
+    height: 40vh;
+    width: 31vw;
+    margin-top: 1.5px;
+    margin-right: 1px;
+    float: left;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+.fifth_section_secondpart_second_image{
+    background-image: url("https://www.mercedes-benz.com/en/classic/history/birth-of-an-all-wheel-drive-all-rounder/_jcr_content/image/MQ6-8-image-20210729145255/01-mercedes-benz-classic-unimog-1946-2560x1440.jpeg");
+    height: 40vh;
+    width: 34.5vw;
+    margin-top: 1.5px;
+    float: left;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+.fifth_section_secondpart_third_image{
+    background-image: url("https://www.mercedes-benz.com/en/classic/history/compressor-power-from-100-years-ago/_jcr_content/image/MQ6-8-image-20210825113412/01-mercedes-benz-history-compressor-power-from-100-years-ago-2560x1440.jpeg");
+    height: 40vh;
+    width: 33vw;
+    margin-top: 2px;
+    float:right;
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+/* image section completed */
+
+.para_button{
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+ 
+    flex-direction: row;
+    
+}
+.paragraph {
+    color: white;
+    margin: 44px;
+    background-color: black;
+    margin-top: 90px;
+    font-family: MBCorpo Title,DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+}
+.bottem-secton_first{
+    color: white;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+ul{
+    list-style: none;
+}
+.bottem-secton_second{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.footer_link{
+    color: rgb(124, 123, 123);
+    text-decoration: none;
+    
+}
+.footer_link:hover{
+    color: #4dc6f4;
+}
+.line{
+    margin-left: 44px;
+    width: 94%;
+    font-weight: 9px;
+}
+.bottem-secton_second h1{
+    margin-left: 44px;
+    margin-bottom:30px;
+}
+.last_paragraph{
+    color: white;
+    margin-left: 44px;
+    padding-top: 15px;
+}
+.icon{
+    color: white;
+    height: 70px;
+    width: 70px;
+    margin-left: 36px;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.faceboook{
+    
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    
+}
+.last_image_section{
+display: flex;
+flex-direction: row;  
+margin-left: 80px;  
+}
+.last_image_section .image{
+    height: 80px;
+    width: 150px;
+    margin-left: 118px;
+    padding-top: 50px;
+    
+}
+.last_image_section .image1{
+    height: 80px;
+    width: 210px;
+    padding-top: 50px;
+    margin-left: 300px;
+}
+.last_image_section .image2{
+    height: 80px;
+    width: 150px;
+    margin-left: 320px;
+    padding-top: 50px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 30px;
+}
+.footer .p{
+    margin-left: 450px;
+  
+}
+.footer p{
+    padding-left: 10px;
+}
